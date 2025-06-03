@@ -42,3 +42,61 @@ This project focuses on analyzing historical stock data and news headlines to ga
 - Combine sentiment scores with historical stock data
 - Build a predictive model for stock movements based on news sentiment
 
+📊 Task 3: Sentiment-Return Correlation Analysis
+This task involves analyzing the relationship between daily news sentiment and stock market movements for seven major tech companies.
+
+✅ Steps Completed:
+Sentiment Labeling
+
+Converted numerical sentiment scores into categorical labels: Positive, Negative, and Neutral.
+
+Stored in a new column: Sentiment_Label.
+
+Data Aggregation
+
+Aggregated news sentiment per day per company, calculating:
+
+Average sentiment score
+
+Most common sentiment label (mode)
+
+Stock Return Calculation
+
+Computed daily stock returns using percentage change in the Close price.
+
+Added a new column: Daily_Return.
+
+Correlation Analysis
+
+Merged aggregated daily sentiment with daily stock returns.
+
+Calculated Pearson correlation coefficients to quantify the relationship between:
+
+Daily average sentiment score and stock returns
+
+Daily sentiment label and stock returns (label converted to numerical scale)
+
+Applied to 7 Companies
+
+Tesla (TSLA)
+
+Apple (AAPL)
+
+Microsoft (MSFT)
+
+Google (GOOG)
+
+NVIDIA (NVDA)
+
+Amazon (AMZN)
+
+Meta (META)
+
+📁 Output Files
+Each company now has an updated CSV with:
+
+Aggregated daily sentiment
+
+Calculated stock return
+
+Sentiment-return correlation statistics
