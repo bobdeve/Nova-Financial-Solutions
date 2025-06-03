@@ -39,6 +39,6 @@ This project focuses on analyzing historical stock data and news headlines to ga
 ---
 
 ## 🚀 What's Next
-- Combine sentiment scores with historical stock data
-- Build a predictive model for stock movements based on news sentiment
-
+- Integrate sentiment scores with stock price movement.
+- Build models to predict price direction based on sentiment.
+- Add more companies and broader news sources.
